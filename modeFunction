@@ -1,0 +1,6 @@
+def mode(histname):
+  freq=[]
+  for val in histname.Values():
+    freq.append(histname.Freq(val))
+    
+  
