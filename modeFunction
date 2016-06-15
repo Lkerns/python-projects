@@ -1,6 +1,8 @@
-def mode(histname):
-  freq=[]
+def Mode(histname):
+  histfreq=[]
   for val in histname.Values():
-    freq.append(histname.Freq(val))
+    histfreq.append(histname.Freq(val))
+    histmode=max(histfreq)
+  return histmode
     
-  
+    
