@@ -1,0 +1,6 @@
+def AllModes(histname):
+  flerp=[]
+  flerp.append(histname.Values())
+  print(flerp.sort())
+    
+    
